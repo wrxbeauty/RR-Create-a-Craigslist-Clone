@@ -1,6 +1,7 @@
 // Import data
 
 // Import components
+import Gallery from './components/Gallery'
 import './App.css';
 
 function App(){
@@ -8,7 +9,7 @@ function App(){
     <div>
       <h1>craigslist</h1>
       <div className="App">
-        {/* Your content will go here! */}
+        <Gallery />
       </div>
     </div>
   );
